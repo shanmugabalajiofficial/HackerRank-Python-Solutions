@@ -1,0 +1,23 @@
+#What's Your Name?
+
+
+# Complete the 'print_full_name' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING first
+#  2. STRING last
+#
+
+def print_full_name(first, last):
+    # Write your code here
+      print("Hello",first_name, last_name +"!","You just delved into python.")
+      
+#Alternative Solution : "f" is called formatted string literals, f-strings are string literals that have an f before the opening quotation mark. They can include Python expressions enclosed in curly braces. Python will replace those expressions with their resulting values. So, this behavior turns f-strings into a string interpolation tool.  
+
+    #print(f"Hello {first_name} {last_name}! You just delved into python.")
+    
+if __name__ == '__main__':
+    first_name = input()
+    last_name = input()
+    print_full_name(first_name, last_name)
