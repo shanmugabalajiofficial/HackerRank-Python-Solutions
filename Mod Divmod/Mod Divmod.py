@@ -6,4 +6,7 @@ fnum = int(input())
 snum = int(input())
 print(fnum // snum)
 print(fnum % snum)
-print(f"({fnum // snum}" + ", " + f"{fnum %snum})")
+'''print(f"({fnum // snum}" + ", " + f"{fnum %snum})")'''
+ 
+# Alternate Solution
+print(divmod(fnum, snum))
